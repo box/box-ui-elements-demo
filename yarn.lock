@@ -881,9 +881,9 @@ box-react-ui@^21.4.0:
   dependencies:
     yui "^3.18.1"
 
-box-ui-elements@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/box-ui-elements/-/box-ui-elements-3.5.0.tgz#69c8c50ef2e078695eac8b0d3321e66b3d0a20ea"
+box-ui-elements@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/box-ui-elements/-/box-ui-elements-3.5.1.tgz#078f22948102c0d4c188902e0844e22d67d6e15e"
   dependencies:
     randomcolor "^0.5.3"
     whatwg-fetch "^2.0.3"
@@ -4218,9 +4218,9 @@ react-tether@^0.6.0:
     prop-types "^15.5.8"
     tether "^1.3.7"
 
-react-virtualized@^9.17.2:
-  version "9.17.2"
-  resolved "https://registry.yarnpkg.com/react-virtualized/-/react-virtualized-9.17.2.tgz#ae745e98663dc4ba6c51450c04b5864a374800ee"
+react-virtualized@^9.17.3:
+  version "9.17.3"
+  resolved "https://registry.yarnpkg.com/react-virtualized/-/react-virtualized-9.17.3.tgz#3854588f067235c00ae5cd134d96508956630033"
   dependencies:
     babel-runtime "^6.26.0"
     classnames "^2.2.3"
