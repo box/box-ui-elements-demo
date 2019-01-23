@@ -10,7 +10,7 @@ Setup
     2. Whitelist `http://localhost:8080` for CORS on the configuration page.
     3. Note down the Client ID and Client Secret from the configuration page.
 2. Clone this repo via `git clone git@github.com:box/box-ui-elements-demo.git`.
-3. Run `yarn deploy` to run the webpack dev server.
+3. Run `yarn start` to run the webpack dev server.
 4. Navigate to http://localhost:8080.
 5. Enter the values from step 2 and then grant access to box on the following page.
 
@@ -20,7 +20,8 @@ Important Files
 ---------------
 [How to import the UI Element - Main.js](src/Main.js)
 [Webpack rules - webpack.config.js](webpack.config.js)
-[Babel config - .babelrc](.babelrc)
+[Babel config - babel.config.js](babel.config.js)
+[Depedencies - package.json](package.json)
 
 Documentation
 -------------
@@ -28,6 +29,8 @@ Documentation
 ##### [Box Content Explorer](https://developer.box.com/docs/box-content-explorer)
 ##### [Box Content Uploader](https://developer.box.com/docs/box-content-uploader)
 ##### [Box Content Preview](https://developer.box.com/docs/box-content-preview)
+##### [Box Content Sidebar](https://developer.box.com/docs/box-content-sidebar)
+##### [Box Content Open With](https://developer.box.com/docs/box-content-open-with)
 
 # Questions
 If you have any questions, please visit our [developer forum](https://community.box.com/t5/Box-Developer-Forum/bd-p/DeveloperForum) or contact us via one of our [available support channels](https://community.box.com/t5/Community/ct-p/English).

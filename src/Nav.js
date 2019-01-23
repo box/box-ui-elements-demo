@@ -16,6 +16,12 @@ const Nav = () => (
             <div className='menu-item'>
                 <a target='box' href="//docs.box.com/docs/box-content-uploader">Content Uploader</a>
             </div>
+            <div className='menu-item'>
+                <a target='box' href="//docs.box.com/docs/box-content-sidebar">Content Sidebar</a>
+            </div>
+            <div className='menu-item'>
+                <a target='box' href="//docs.box.com/docs/box-content-open-with">Content Open With</a>
+            </div>
         </div>
     </nav>
 );
