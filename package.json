@@ -54,7 +54,7 @@
     "react-modal": "^3.9.1",
     "react-process-string": "^1.2.0",
     "react-router-dom": "^5.0.1",
-    "react-tether": "^2.0.3",
+    "react-tether": "1.0.1",
     "react-textarea-autosize": "^7.1.0",
     "react-virtualized": "^9.21.1",
     "regenerator-runtime": "^0.13.3",
