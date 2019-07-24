@@ -28,7 +28,7 @@
     "babel-plugin-react-remove-properties": "^0.3.0",
     "babel-plugin-transform-require-ignore": "^0.1.1",
     "babel-polyfill": "^6.26.0",
-    "box-ui-elements": "^10.1.0",
+    "box-ui-elements": "^11.0.0-beta.33",
     "classnames": "^2.2.6",
     "css-loader": "^3.1.0",
     "draft-js": "^0.11.0",
