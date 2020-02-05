@@ -1,5 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
+const { IgnorePlugin } = require('webpack');
 
 module.exports = {
     bail: true,
@@ -13,11 +14,6 @@ module.exports = {
     },
     devServer: {
         host: '0.0.0.0',
-    },
-    resolve: {
-        alias: {
-            moment: 'box-ui-elements/es/utils/MomentShim', // Hack to leverage Intl instead
-        },
     },
     module: {
         rules: [
@@ -35,6 +31,9 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].css',
+        }),
+        new IgnorePlugin({
+            resourceRegExp: /moment$/, // Moment is optionally included by Pikaday, but is not needed in our bundle
         }),
     ]
 };
