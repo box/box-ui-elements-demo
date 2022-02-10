@@ -40,7 +40,7 @@
     "lodash": "^4.17.15",
     "lodash.uniqueid": "^4.0.1",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "pikaday": "^1.6.1",
     "postcss-loader": "^3.0.0",
     "postcss-safe-parser": "^4.0.1",
